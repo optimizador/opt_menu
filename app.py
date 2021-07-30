@@ -18,7 +18,7 @@ def cr():
 def cp4d():
     return redirect("https://ui.9sxuen7c9q9.us-south.codeengine.appdomain.cloud/cp4d")
 @app.route('/cp4dtemplate')
-def cp4d():
+def cp4dtemplate():
     return redirect("https://ui.9sxuen7c9q9.us-south.codeengine.appdomain.cloud/cp4dtemplate")
 
 @app.route('/backup')
