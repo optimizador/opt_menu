@@ -52,6 +52,11 @@ def cga():
 @app.route('/core')
 def core():
     return redirect("https://ui-cr.9sxuen7c9q9.us-south.codeengine.appdomain.cloud/")
+@app.route('/tasa')
+def tasa():
+    return redirect("https://uitasatransferencia.9sxuen7c9q9.us-south.codeengine.appdomain.cloud/")
+
+
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0")
