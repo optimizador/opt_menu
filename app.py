@@ -48,6 +48,9 @@ def ms():
 @app.route('/cga')
 def cga():
     return redirect("https://ui-ga.9sxuen7c9q9.us-south.codeengine.appdomain.cloud/uiga")
+@app.route('/cdl')
+def cdl():
+    return redirect("https://ui-ga.9sxuen7c9q9.us-south.codeengine.appdomain.cloud/uidl")
 
 @app.route('/core')
 def core():
