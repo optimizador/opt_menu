@@ -25,6 +25,10 @@ def cp4dtemplate():
 def cp4dtemplateproduccion():
     return redirect("https://ui.9sxuen7c9q9.us-south.codeengine.appdomain.cloud/cp4dtemplateproduccion")
 
+@app.route('/soporte')
+def soporte():
+    return redirect("https://ui.9sxuen7c9q9.us-south.codeengine.appdomain.cloud/soporte")
+
 @app.route('/backup')
 def backup():
     return redirect("https://pxbackup.9sxuen7c9q9.us-south.codeengine.appdomain.cloud/")
