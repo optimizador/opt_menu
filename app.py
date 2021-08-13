@@ -65,7 +65,7 @@ def tasa():
     return redirect("https://uitasatransferencia.9sxuen7c9q9.us-south.codeengine.appdomain.cloud/")
 
 @app.route('/portworx')
-def tasa():
+def portworx():
     return redirect("https://ui-portworx.9sxuen7c9q9.us-south.codeengine.appdomain.cloud/")
 
 
