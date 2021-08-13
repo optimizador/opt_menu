@@ -59,9 +59,14 @@ def cdl():
 @app.route('/core')
 def core():
     return redirect("https://ui-cr.9sxuen7c9q9.us-south.codeengine.appdomain.cloud/")
+
 @app.route('/tasa')
 def tasa():
     return redirect("https://uitasatransferencia.9sxuen7c9q9.us-south.codeengine.appdomain.cloud/")
+
+@app.route('/portworx')
+def tasa():
+    return redirect("https://ui-portworx.9sxuen7c9q9.us-south.codeengine.appdomain.cloud/")
 
 
 
