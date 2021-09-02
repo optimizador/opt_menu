@@ -69,7 +69,7 @@ def portworx():
     return redirect("https://ui-portworx.9sxuen7c9q9.us-south.codeengine.appdomain.cloud/")
 
 @app.route('/portworx-service')
-def portworx():
+def portworx_service():
     return redirect("https://ui-portworx-service.9sxuen7c9q9.us-south.codeengine.appdomain.cloud/")
 
 
