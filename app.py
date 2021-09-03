@@ -14,6 +14,20 @@ def menu():
 def cr():
     return render_template('ibm.html')
 
+
+@app.route('/cp4i')
+def cp4d():
+    return redirect("https://uicp4i.9sxuen7c9q9.us-south.codeengine.appdomain.cloud/cp4i")
+@app.route('/cp4itemplate')
+def cp4dtemplate():
+    return redirect("https://uicp4i.9sxuen7c9q9.us-south.codeengine.appdomain.cloud/cp4itemplate")
+
+@app.route('/cp4itemplateproduccion')
+def cp4dtemplateproduccion():
+    return redirect("https://uicp4i.9sxuen7c9q9.us-south.codeengine.appdomain.cloud/cp4itemplateproduccion")
+
+
+
 @app.route('/cp4d')
 def cp4d():
     return redirect("https://ui.9sxuen7c9q9.us-south.codeengine.appdomain.cloud/cp4d")
