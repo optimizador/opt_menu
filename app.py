@@ -16,14 +16,14 @@ def cr():
 
 
 @app.route('/cp4i')
-def cp4d():
+def cp4i():
     return redirect("https://uicp4i.9sxuen7c9q9.us-south.codeengine.appdomain.cloud/cp4i")
 @app.route('/cp4itemplate')
-def cp4dtemplate():
+def cp4itemplate():
     return redirect("https://uicp4i.9sxuen7c9q9.us-south.codeengine.appdomain.cloud/cp4itemplate")
 
 @app.route('/cp4itemplateproduccion')
-def cp4dtemplateproduccion():
+def cp4itemplateproduccion():
     return redirect("https://uicp4i.9sxuen7c9q9.us-south.codeengine.appdomain.cloud/cp4itemplateproduccion")
 
 
